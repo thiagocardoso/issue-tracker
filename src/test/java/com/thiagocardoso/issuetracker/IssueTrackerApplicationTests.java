@@ -31,4 +31,15 @@ public class IssueTrackerApplicationTests {
                 .isOk();
     }
 
+	@Test
+	public void getTestController() {
+		client
+				.get()
+				.uri("/testcontroller/")
+				.accept(MediaType.TEXT_PLAIN)
+				.exchange()
+				.expectStatus()
+				.isOk();
+	}
+
 }
