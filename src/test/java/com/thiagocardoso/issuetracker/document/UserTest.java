@@ -11,7 +11,7 @@ public class UserTest {
 
     @Test
     public void create() {
-        assertThat(User.of(), Matchers.is(notNullValue()));
+        assertThat(User.of("", ""), Matchers.is(notNullValue()));
     }
 
     @Test
