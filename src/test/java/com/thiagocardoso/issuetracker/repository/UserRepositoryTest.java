@@ -1,4 +1,4 @@
-package com.thiagocardoso.issuetracker;
+package com.thiagocardoso.issuetracker.repository;
 
 import com.thiagocardoso.issuetracker.document.User;
 import com.thiagocardoso.issuetracker.repository.UserRepository;
